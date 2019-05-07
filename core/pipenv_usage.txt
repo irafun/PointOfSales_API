@@ -1,0 +1,11 @@
+installing with pipenv:
+pipenv install djangorestframework
+
+installing from requirements:
+pipenv install -r requirements.txt
+
+creating requirements.txt from pipfile:
+pipenv lock -r > requirements.txt
+
+activating pipenv:
+pipenv shell
